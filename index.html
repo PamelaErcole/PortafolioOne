@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width initial-scale=1.0">
+        <title>Portafolio</title>
+        <link href="../Portafolio/portafolio.css" rel="stylesheet">
+        <link href="https: //fonts.googleapis.com/css2? family= Montserrat:wght@200;400;700 & family= Open+Sans:wght@400;600 & family= Roboto:wght@100;300;400;500;700; 900 & familia= Satisfacer & mostrar=intercambiar" rel="hoja de estilo">       
+    </head>
+    <body>
+        <header class="cabecera">
+            <nav class="menu">
+                <ul class="menu__navegacion">
+                    <li class="menu__link"><a class="menu__item" href="">Sobre Mi</a></li>
+                    <li class="menu__link"><a class="menu__item" href="">Hobbies</a></li>
+                    <li class="menu__link"><a class="menu__item" href="">Soft Skills</a></li>
+                    <li class="menu__link"><a class="menu__item" href="">Formación</a></li>
+                    <li class="menu__link"><a class="menu__item" href="">Experiencia</a></li>
+                    <li class="menu__link"><a class="menu__item" href="">Contacto</a></li>
+                </ul>
+            </nav>
+        </header>
+        <section class="banner">
+            <img class="banner__imagen" src="../Portafolio/banner.jpg" alt="imagen de desarrollo web">      
+            <h2 class="banner__texto">Hola! Soy Pamela Ercole y construyo páginas web...</h2>    
+            <p class="banner__descripcion">Soy Analista en Sistemas, me he formado en ITEC Leonardo Da Vinci y actualmente pertenezco al programa ONE de Alura Latam. </p>
+        </section>
+        <section class="sobremi">
+            <h2 class="sobreMi__titulo">Sobre Mi</h2>
+            <div class="sobreMi__imgDesc">
+                <img class="sobreMi__imagen" src="../Portafolio/imagen.jpg" alt="imagen de rostro">
+                <p class="sobreMi__descripcion">Hola! Soy Pamela, tengo 38 años de edad, de Nacionalidad Argentina, vivo en Coronel Moldes, una pequeña ciudad que está ubicada al sur de la provincia de Córdoba. Por la mañana trabajo en la Municipalidad de mi Ciudad en el área Contabilidad. Soy Analista en Sistemas y actual estudiante de Front End del programa ONE. Mi deseo es capacitarme y poder trabajar en web para poder mejorar mi calidad de vida y la de mi familia.</p>  
+            </div>
+        </section>
+        <section class="hobbies">
+            <h2 class="hobbies__titulo">Mis Hobbies</h2>
+            <div class="hobbies__pers">   
+               <div class="hobbies__persona"> 
+                    <div class="imag__persona imag__persona--zumba"></div>      
+                    <p class="hobbies__nombre">Zumba</p>
+                </div>
+                <div class="hobbies__persona">       
+                   <div class="imag__persona imag__persona--crossfit"></div>
+                    <p class="hobbies__nombre">Crossfit</p>
+                </div>
+                <div class="hobbies__persona">  
+                    <div class="imag__persona imag__persona--catequista"></div>     
+                    <p class="hobbies__nombre">Catequista</p>
+                </div>
+                <div class="hobbies__persona"> 
+                    <div class="imag__persona imag__persona--cocina"></div>      
+                    <p class="hobbies__nombre">Cocinar</p>
+                </div>                       
+            </div>
+        </section>
+        <section class="habilidades">
+            <h2 class="habilidades__titulo">Mis Skills</h2>
+            <div class="habilidades__pers">   
+               <div class="habilidades__persona"> 
+                    <div class="imag__habilidad imag__habilidad--html5"></div>      
+                    <p class="habilidades__nombre">Conocimiento en HTML5</p>
+                </div>
+                <div class="habilidades__persona"> 
+                    <div class="imag__habilidad imag__habilidad--css"></div>      
+                    <p class="habilidades__nombre">Conocimiento en CSS</p>
+                </div>
+                <div class="habilidades__persona"> 
+                    <div class="imag__habilidad imag__habilidad--javas"></div>      
+                    <p class="habilidades__nombre">Conocimiento en JavaScript</p>
+                </div>
+                <div class="habilidades__persona"> 
+                    <div class="imag__habilidad imag__habilidad--softskill"></div>      
+                    <p class="habilidades__nombre">Soft Skills</p>
+                </div>
+            </div>
+        </section>
+
+            <section class="formacion__persona">
+                <h2 class="formación__titulo">Formación Académica</h2>
+                    <ul class="lista__formacion">
+                        <li class="lista__formacion--itec"><a class="formacion--itec">ITEC Leonardo Da Vinci</a></li> 
+                        <li class="lista__formacion--one"><a class="formacion--one">Programa ONE</a></li> 
+            </section>
+
+
+        <section class="experiencia">
+            <h2 class="experiencia__titulo">Experiencia en programación</h2>
+            <p class="descripcion__encriptador">Por medio del programa ONE he realizado un encriptador de texto</p>
+            <div class="info__encriptador">
+                <img class="imag__encriptador" src="../Portafolio/encriptador.png" alt="imagen encriptador">
+
+                <h3 class="link__encrip"><a href="../Encriptador/Encriptador.html" target="_blank">Ingrese aquí para probar Encriptador</a></h3>
+              
+     
+            </div>
+         </section>
+
+        <form class="contacto__Form" action="#">
+            <h2 class="contacto__titulo">Contacto</h2>
+         
+            <fieldset class="formulario__contacto">
+                <legend class="contacto__Form-legend" for="email-contato">¿Quieres contactarme?</legend>
+               
+                <div class="contacto__Form-fieldset"> 
+                    
+                    <label for="mail">E-Mail</label>
+                    <input class="contato__Form-email" type="email" name="email-contato" id="email-contato" required placeholder="email@dominio.com">
+
+                    <label for="name">Nombre</label>
+                    <input class="contato__Form-name" type="name" name="nombre-contato" id="name-contato" required>
+
+                    <label for="asunto">Asunto</label>
+                    <input class="contato__Form-asunto" type="text" name="asunto-contato" id="asunto-contato" required>
+
+                    <label for="mensaje">Mensaje</label>
+                    <textarea class="contato__Form-mensaje" cols="70" rows="10"  type= "text" name="mensaje-contato" id="mensaje-contato" required> </textarea>
+                    
+                    <button class="contacto__Form-submit-enviar" type="submit">Enviar</button>
+
+                    <p>Curriculum Vitae <a href="../Portafolio/curriculum.pdf" target="_blank">Abrir</a>.</p>
+                                    
+                </div>
+            </fieldset>
+        </form>
+
+        <footer class="piePag">
+            <p>Creado por Pamela Ercole - 2023</p>
+        </footer>
+
+    </body>
+
+</html>
+

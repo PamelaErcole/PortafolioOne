@@ -1,0 +1,268 @@
+.body{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.menu__navegacion{
+    display: flex;
+    flex-direction: row;
+    padding: 1rem;
+    list-style-type: none;  
+    justify-content: flex-end;
+ 
+}
+
+.menu__item{
+    margin-right: 2rem;
+    padding-right: auto;
+    color: rgb(56, 55, 55);
+    text-align: right;
+    text-decoration: none;
+}
+
+.banner{
+    position: relative;
+}
+
+.banner__imagen{
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 2%;  
+    width: 100%;
+    height: 500px;
+}
+
+.banner__texto{
+    font-style: italic;
+    font-size: 40px;
+    color: black;
+    position: absolute;
+    left: 50%;
+    top: 30%;
+    text-align: center;
+    transform: translate(-50%, -50%);
+    width: 100%;
+}
+
+.banner__descripcion{
+    font-style: italic;
+    font-size: 35px;
+    color: #2C2B2B;
+    position: absolute;
+    left: 50%;
+    top: 60%;
+    text-align: center;
+    transform: translate(-50%, -50%);
+    width: 100%;
+    
+}
+
+.sobremi{
+    display: flex;
+    padding: 5px;
+    flex-direction: column;
+
+}
+
+.sobreMi__titulo{
+    color: rgb(56, 55, 55);
+    font-size: 45px;
+    text-align: center;
+}
+
+.sobreMi__imgDesc{
+    display: flex;
+    flex-direction: row;
+    margin-top: 30px;
+
+}
+
+.sobreMi__imagen{
+    height: 170px;
+    width: 170px;
+    background-position: left;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 100%;
+    margin-right: 50px;
+    padding-top: 50px;
+}
+
+.sobreMi__descripcion{
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-style: italic;
+    font-size: 35px;
+    color: black;
+    justify-content: center;
+
+}
+
+.hobbies__titulo, .habilidades__titulo, .formación__titulo, .experiencia__titulo{
+    color: rgb(56, 55, 55);
+    font-size: 30px;
+    text-align: center;
+    text-decoration: underline;
+}
+
+.hobbies__pers, .habilidades__pers{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
+
+.hobbies__persona, .habilidades__persona{
+    display: flex;
+    flex-direction: column;
+}
+
+.imag__persona, .imag__habilidad{
+    height: 100px;
+    width: 100px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-right: 50px;
+    margin-left: 20px;
+    padding-top: 50px;
+    justify-content: space-around;
+}
+
+.imag__persona--zumba{
+    background-image: url(../Portafolio/hobbies/zumba.png);
+}
+
+.imag__persona--crossfit{
+    background-image: url(../Portafolio/hobbies/crossfit.png);
+}
+
+.imag__persona--catequista{
+    background-image: url(../Portafolio/hobbies/catequesis.png);
+}
+
+.imag__persona--cocina{
+    background-image: url(../Portafolio/hobbies/cocinar.png);
+}
+
+.imag__habilidad--html5{
+    background-image: url(../Portafolio/skills/html5.png);
+}
+
+.imag__habilidad--css{
+    background-image: url(../Portafolio/skills/css.png);
+}
+
+.imag__habilidad--javas{
+    background-image: url(../Portafolio/skills/js.png);
+}
+
+.imag__habilidad--softskill{
+    background-image: url(../Portafolio/skills/softskills.png);
+}
+
+.hobbies__nombre, .habilidades__nombre{
+    color: #2C2B2B;
+    font-family: Arial, italic;
+    font-size: 20px;
+    margin-left: 25px;
+    text-align: left;
+}
+
+.formacion__persona{
+    display: flex;
+    flex-direction: column;
+}
+
+.lista__formacion{
+    display: flex;
+    flex-direction: row;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 20px;
+    font-style: italic;
+    margin-left: 5rem;
+    justify-content: space-around;
+}
+
+.descripcion__encriptador{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    font-style: italic;
+    margin-top: 1rem;
+    text-align: left;
+    margin-bottom: 1rem;
+}
+
+.info__encriptador{
+    display: flex;
+    flex-direction: column;
+}
+
+.imag__encriptador{
+    height: 500px;
+    width: 1000px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-right:25px;
+    margin-left: 25px;
+    padding-top: 0.5rem;
+
+}
+
+.nombre__encriptador{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    color: blue;
+    margin-left: 1rem;
+    margin-top: 1rem;
+}
+
+.link__encriptador{
+    font-size: 20px;
+    margin-left: 20px;
+}
+
+
+.contacto__Form{
+    display: flex;
+    flex-direction: column;
+    border-style: none;
+    }
+
+.formulario__contacto{
+    margin: 1rem;
+}
+
+.contacto__Form-fieldset, .contacto__Form-legend{
+    display: flex;
+    flex-direction: column;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 500px;
+    font-size: 15px;
+    justify-content: space-around;
+}
+
+.contato__Form-email, .contato__Form-name, .contato__Form-asunto{
+    height: 25px;
+}
+
+.contacto__Form-submit-enviar, .contacto__Form-submit-curriculum {
+    justify-content: space-between;
+    margin: 5px;
+    width: 150px;
+    height: 50px;
+    border-radius: 1px;
+    color: beige;
+    text-decoration: double;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    cursor: pointer;
+    background-color: #2C2B2B;
+}
+
+.piePag{
+    text-align: center;
+    color: rgb(56, 55, 55);
+    font-size: 15px;
+    font-style: italic; 
+}
